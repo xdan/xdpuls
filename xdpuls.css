@@ -1,0 +1,43 @@
+.xd_puls{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background:rgba(127,127,127,0.5);
+	display:none;
+	z-index:900;
+}
+.xd_puls .success_box{
+	color:#bbb;
+	font-size:120%;
+	padding-top:10px;
+}
+.xd_puls_window{
+	position:fixed; 
+	top:50%; 
+	left:50%; 
+	width:225px; 
+	margin:-200px 0px 0px -112px;   
+	border:1px solid #ccc; border-radius:5px; 
+	background:#fff; 
+	padding:0px 10px 10px 10px; 
+	display:table;
+}
+.xd_puls_tr{
+	display:table-row;
+	width:100%;
+}
+.xd_puls_tr div{
+	display:table-cell;
+	padding-bottom:5px;
+}
+.xd_puls_tr div input[type=text],.xd_puls_tr div textarea{
+	width:95%;
+}
+.xd_puls_tr div input,.xd_puls_tr div textarea{
+	padding:5px;
+}
+.xd_puls div.err_esc,.xd_puls div.err_info{
+	text-align:center;cursor:pointer;float:right;height:20px; width:20px;background:#ccc; font-size:14px;margin:3px; color:#fff; border-radius:10px;
+}
